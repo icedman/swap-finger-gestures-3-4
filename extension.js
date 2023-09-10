@@ -18,9 +18,10 @@
 
 /* exported init */
 
-const Main = imports.ui.main;
+// const Main = imports.ui.main;
+import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 
-class Extension {
+export default class Extension {
   constructor() {}
 
   enable() {

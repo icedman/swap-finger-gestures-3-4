@@ -15,7 +15,6 @@ publish:
 	cp LICENSE ./build
 	cp *.js ./build
 	cp metadata.json ./build
-	cp stylesheet.css ./build
 	cp README.md ./build
 	echo "cp -R schemas ./build"
 	rm -rf ./*.zip
